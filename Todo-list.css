@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.todo-display,
+.todo-main{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.add-button,
+.delete-button{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-button{
+    background-color: green;
+    color: wheat;
+}
+.delete-button{
+    background-color: red;
+    color: white;
+}
